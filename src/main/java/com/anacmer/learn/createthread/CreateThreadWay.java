@@ -48,6 +48,8 @@ public class CreateThreadWay {
         log.info("running...");
     }
 
+    // jstack pid 抓取某一时刻 java 进程的线程信息
+    // jconsole 调用 jdk 自带的 java 进程管理器，可以监视 java 进程的相关信息
 
     public static void main(String[] args) {
         newThread();
