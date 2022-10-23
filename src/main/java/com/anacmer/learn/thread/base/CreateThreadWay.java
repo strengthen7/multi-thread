@@ -1,4 +1,4 @@
-package com.anacmer.learn.createthread;
+package com.anacmer.learn.thread.base;
 
 import lombok.extern.slf4j.Slf4j;
 
