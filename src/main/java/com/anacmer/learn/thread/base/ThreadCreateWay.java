@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 @Slf4j
-public class CreateThreadWay {
+public class ThreadCreateWay {
 
     public static void newThread() {
         // 推荐指定线程 名称
