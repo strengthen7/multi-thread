@@ -4,9 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 public class SleepHelper {
 
-    public static void sleep(Integer secends) {
+    public static void sleep(Integer seconds) {
         try {
-            TimeUnit.SECONDS.sleep(secends);
+            TimeUnit.SECONDS.sleep(seconds);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
